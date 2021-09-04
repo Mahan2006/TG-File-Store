@@ -32,6 +32,7 @@ async def start(c, m, cb=False):
 
 `You can store your Telegram Media for permanent Link!`
 
+Iam made only for this Group :- @KannadaHDGroup 💕
 
 **👲 Maintained By:** {owner.mention(style='md')}
 """

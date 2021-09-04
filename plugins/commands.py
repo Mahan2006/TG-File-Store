@@ -139,7 +139,7 @@ async def me(c, m):
     await m.reply_text(text, quote=True)
 
 
-@Client.on_message(filters.command('batch') & filters.private & filters.incoming)
+@Client.on_message(filters.command('files') & filters.private & filters.incoming)
 async def batch(c, m):
     """ This is for batch command"""
     if IS_PRIVATE:
